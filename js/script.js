@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     let newFilm = addInput.value.trim();
     const favorite = checkBox.checked;
-    // console.log(newFilm, favorite);
     if (newFilm) {
       if (newFilm.length > 21) {
         newFilm = newFilm.substring(0, 21) + '...';
